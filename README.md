@@ -23,6 +23,9 @@ Dibangun sebagai proyek UAS mata kuliah **Pemrograman Mobile 2**, HelloNutri AI 
 
 > 📅 Dibuat pada: **02 Maret 2026**  
 > 👩‍💻 Developer: **Vivit Nurul Hidayah**
+> Link Figma : **https://www.figma.com/design/2R4E9Hyob9tBA34gwaMRBK/HelloNutri?node-id=124-105&t=0c0Z1iJbCynd15xW-1**
+
+> Link ClickUp : **https://sharing.clickup.com/90181792771/g/h/2kzm1x03-458/e7f6ff079d9a33a**
 
 ---
 
