@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">HelloNutri</string>
+
+    <string name="welcome_splash_text">Hallo!</string>
+    <string name="location_label">Lokasi: </string>
+    <string name="permission_denied">Izin lokasi ditolak</string>
+    <string name="location_timeout">Waktu deteksi habis</string>
+    <string name="location_unavailable">Lokasi tidak tersedia</string>
+    <string name="geocoder_failed">Gagal mendapatkan nama negara</string>
+
+    <string name="welcome_title">Selamat Datang di\nHelloNutri</string>
+    <string name="onboarding_desc">Konsultasi gizi instan dan\nmudah kapan saja dengan AI</string>
+    <string name="btn_continue">Lanjutkan</string>
+
+    <string name="profile_title">Ayo Lengkapi\nProfilemu</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="hint_weight">Berat Badan (kg)</string>
+    <string name="hint_height">Tinggi Badan (cm)</string>
+    <string name="hint_age">Umur</string>
+    <string name="label_personalization">Personalisasi</string>
+    <string name="label_allergy">Alergi Makanan?</string>
+    <string name="label_medical">Pantangan Medis?</string>
+    <string name="btn_save">Simpan &amp; Lanjutkan</string>
+
+    <string name="hello_user">Hello, Vivit</string>
+    <string name="home_question">Apa yang ingin kamu\ntanyakan hari ini?</string>
+    <string name="quick_question">Quick Question</string>
+    <string name="menu_kalori">Kalori\nMakanan</string>
+    <string name="menu_sehat">Menu sehat\nhari ini</string>
+    <string name="menu_cek_sehat">Apakah\nMakanan ini\nsehat?</string>
+    <string name="menu_nutrisi">Nutrisi\nmakanan</string>
+    <string name="banner_ai">Konsultasi dengan\nHelloNutri AI</string>
+
+    <string name="title_chat">HelloNutri AI</string>
+
+    <string name="ai_description">Siap membantu anda konsultasi seputar\nkalori, nutrisi, dan pola makan sehat</string>
+    <string name="btn_start_chat">Mulai Obrolan dengan\nHelloNutri AI</string>
+
+    <string name="hint_chat">Ketik pertanyaan...</string>
+
+    <string name="sample_user_chat">Pesan Anda</string>
+    <string name="sample_ai_chat">Halo! Kalori makanan tersebut adalah...</string>
+
+        <!-- Tambahkan ini di dalam tag resources -->
+    <string-array name="gender_options">
+            <item>Laki-laki</item>
+            <item>Perempuan</item>
+        </string-array>
+</resources>

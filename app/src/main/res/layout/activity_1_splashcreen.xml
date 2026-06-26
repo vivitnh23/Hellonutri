@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E8D9"
+    tools:context="._1Splashcreen">
+
+    <!-- 2. Konten Utama (Logo, Judul, Subtitle) -->
+    <LinearLayout
+        android:id="@+id/layoutMainContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Logo Karakter Maskot Sayur -->
+        <ImageView
+            android:id="@+id/ivMainLogoHelloNutri"
+            android:layout_width="191dp"
+            android:layout_height="202dp"
+            android:layout_marginBottom="24dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo"
+            android:contentDescription="Logo HelloNutri AI" />
+
+        <!-- Judul Utama -->
+        <TextView
+            android:id="@+id/tvTitleHelloNutri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="HelloNutri AI"
+            android:textColor="#38B938"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <!-- Subtitle Sapaan -->
+        <TextView
+            android:id="@+id/tvSubtitleHelloNutri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="AI Teman Nutrisimu\nSehat Setiap Hari"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+
+    <!-- 3. Indikator Loading / Progress Bar Semu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/viewProgressBarMock"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="160dp"
+            android:layout_height="14dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@android:drawable/progress_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>

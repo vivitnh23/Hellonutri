@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E8D9"> <!-- Mengubah warna background dasar agar sesuai mockup figma -->
+
+    <!-- Judul Atas: Lokasi Terdeteksi -->
+    <TextView
+        android:id="@+id/tvLokasiTerdeteksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Terdeteksi"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/flagImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <!-- Gambar Bendera (Disesuaikan ukurannya agar lebih presisi) -->
+    <ImageView
+        android:id="@+id/flagImage"
+        android:layout_width="180dp"
+        android:layout_height="110dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/flag_uknown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <!-- Teks Sapaan: Hallo! -->
+    <TextView
+        android:id="@+id/welcomeSplashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Hallo"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flagImage" />
+
+    <!-- Teks Deskripsi Tambahan (HelloNutri AI siap jadi partner...) -->
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="HelloNutri AI siap jadi\npartner sehatmu setiap hari"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeSplashText" />
+
+    <!-- 1. Lingkaran Setengah Hijau (Ukurannya dikecilkan sedikit ke 190dp agar pas) -->
+
+
+    <!-- 2. Gambar Orang/Petani (Dikecilkan proporsional & menempel pas di atas bukit hijau) -->
+    <ImageView
+        android:id="@+id/farmerImage"
+        android:layout_width="350dp"
+        android:layout_height="190dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/petani_illustration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
